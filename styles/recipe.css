@@ -1,0 +1,30 @@
+@import "./global.css";
+
+img {
+    height: auto;
+    width: 300px;    
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.container {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+ol li, ul li {    
+    margin-top: 15px;
+}
+
+ul {
+    list-style: none;
+    margin-left: -15px;
+}
+
+.container img {
+    display: block;
+    margin: auto;
+}

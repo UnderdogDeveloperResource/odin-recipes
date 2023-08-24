@@ -1,0 +1,37 @@
+* {
+    font-family: Tahoma, "Times New Roman", sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+a {
+    text-decoration: none;    
+}
+
+.nav {    
+    text-align: center;
+}
+
+.nav li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;    
+}
+
+.button a {
+    border: solid black 1px;
+    padding: 15px;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    font-weight: bold;
+    font-size: 26px;    
+}
+
+.button a:hover {
+    background-color: rgb(85, 85, 85);
+}
