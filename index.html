@@ -3,14 +3,38 @@
 <head>
     <meta charset="UTF-8">    
     <title>Odin Recipes</title>
-    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul class="nav">
-        <li class="button"><a href="./recipes/pizza.html">Brooklyn Style Brick Oven Pizza</a></li>
-        <li class="button"><a href="./recipes/chickenSandwiches.html">Buffalo Chicken Sandwiches</a></li>
-        <li class="button"><a href="./recipes/burger.html">Classic Burger</a></li>
-    </ul>
+    <div class="container">        
+        <h1>Odin Recipes</h1>
+        <hr class="separator">
+        <div class="items">
+            <div class="card">
+                <a href="./recipes/pizza.html">
+                    <h2 class="card-title">Pizza</h2>
+                    <div class="content">                        
+                        <img class="card-image" src="./img/brooklynStylePizza.webp">
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="./recipes/chickenSandwiches.html">
+                    <h2 class="card-title">Buffalo Sandwich</h2>
+                    <div class="card-content">                        
+                        <img class="card-image" src="./img/buffaloChickenSandwich.webp">
+                    </div>
+                </a>
+            </div>
+            <div class="card">
+                <a href="./recipes/burger.html">
+                    <h2 class="card-title">Classic Burger</h2>            
+                    <div class="content">                                                
+                        <img class="card-image" src="./img/burger.webp">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

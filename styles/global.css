@@ -1,3 +1,11 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
 * {
     font-family: Tahoma, "Times New Roman", sans-serif;
     font-size: 18px;
@@ -6,22 +14,25 @@
 h1 {
     font-size: 32px;
     text-align: center;
-    margin-bottom: 50px;
 }
 
 a {
     text-decoration: none;    
 }
 
-.nav {    
+/************* Container Styles *************/
+
+.container {
+    margin-left: 50px;
+    margin-right: 50px;    
+}
+
+.container .items {
+    margin: 0 auto;
     text-align: center;
 }
 
-.nav li {
-    display: inline;
-    margin-left: 10px;
-    margin-right: 10px;    
-}
+/************* Button Styles *************/
 
 .button a {
     border: solid black 1px;
@@ -29,9 +40,47 @@ a {
     background-color: rgb(65, 65, 65);
     color: white;
     font-weight: bold;
-    font-size: 26px;    
+    font-size: 26px;        
 }
 
-.button a:hover {
+/************* Card Styles *************/
+
+.card {
+    display: inline-block;
+    width: 300px;
+    background-color: whitesmoke;
+
+    /* Placeholder to prevent jumping when border is visible on hover */
+    border: 2px solid transparent;
+}
+
+.card:hover {
+    border: 2px solid rgb(65, 65, 65);
+}
+
+.card h2:hover {
     background-color: rgb(85, 85, 85);
+}
+
+.card-title {    
+    padding: 15px;
+    background-color: rgb(65, 65, 65);
+    color: white;
+    font-weight: bold;
+    font-size: 26px;
+    margin: 0;    
+}
+
+.card-image {
+    display: block;
+    height: auto;
+    width: 100%;
+    object-fit: cover;    
+    max-height: 200px;
+}
+
+.separator {
+    border-top: 2px solid  rgb(125, 125, 125);
+    width: 125px;
+    margin-bottom: 22px;
 }
