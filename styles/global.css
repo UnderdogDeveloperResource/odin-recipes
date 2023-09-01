@@ -11,6 +11,10 @@ html {
     font-size: 18px;
 }
 
+body {
+    padding: 16px;
+}
+
 h1 {
     font-size: 32px;
     text-align: center;
@@ -21,15 +25,11 @@ a {
 }
 
 /************* Container Styles *************/
-
-.container {
-    margin-left: 50px;
-    margin-right: 50px;    
-}
-
-.container .items {
-    margin: 0 auto;
-    text-align: center;
+.items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 32px;
 }
 
 /************* Button Styles *************/
